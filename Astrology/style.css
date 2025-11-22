@@ -1,0 +1,72 @@
+body { 
+    background-color: rgb(32, 181, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;          /* better than fixed height */
+    margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Parent container */
+#parent {
+    background-color: rgb(187, 0, 255);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Inputs */
+.widths {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;           /* changed from 10% */
+    border: 1px solid brown;      /* full border */
+    padding: 8px;
+    margin-top: 4px;
+    outline: none;
+}
+
+/* Optional: nicer focus effect */
+.widths:focus {
+    border-color: #ffcc00;
+    box-shadow: 0 0 4px rgba(255, 204, 0, 0.7);
+}
+
+/* Headings & form spacing */
+h1 {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+form {
+    margin: 10px 0 0 0;
+}
+
+/* Button */
+button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Result box */
+.result {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    background: #364d79;
+    padding: 1rem;
+    border-radius: 5px;
+}
